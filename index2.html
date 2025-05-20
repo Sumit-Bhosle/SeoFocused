@@ -4,7 +4,8 @@
 <head>
 
     <!-- Brand & Experience SEO Focus
-      Goal: Position brand as an experience (emotional/loyalty driven). -->
+      Goal: Position brand as an experience (emotional/loyalty driven). 
+      JSON LD -->
       
     <meta charset="utf-8">
     <title>KOPPEE - Coffee with a Story Since 1950</title>
@@ -20,6 +21,35 @@
     <meta property="og:image" content="https://www.koppee.com/img/og-experience.jpg">
     <meta property="og:url" content="https://www.koppee.com/">
     <meta property="og:type" content="article">
+
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "KOPPEE",
+        "image": "img/about.png",
+        "description": "KOPPEE is a cozy coffee shop that has been serving delicious coffee since 1950. Our mission is to provide a warm and inviting atmosphere for coffee lovers.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Street",
+            "addressLocality": "BANGLORE",
+            "addressRegion": "karnataka",
+            "addressArea": "BANGLORE",
+            "postalCode": "560001",
+            "addressCountry": "INDIA"
+        },
+        "telephone": "+1-012-345-67890",
+        "url": "https://www.koppee.com",
+        "priceRange": "$",
+        "servesCuisine": "Coffee, Bakery, Snacks",
+        "openingHours": [
+            "Mo-Fr 08:00-20:00",
+            "Sa-Su 14:00-20:00"
+        ]
+        }
+        </script>
+
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
